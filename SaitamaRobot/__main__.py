@@ -190,13 +190,10 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👥Add To Group",
-                            url="t.me/{}?startgroup=true".format(                         
-                            context.bot.username))
-                        InlineKeyboardButton(
-                            text="🚫GBan Logs",
-                            url="https://t.me/anie_news/5")
-                    
+                            text="🤖Add Me To Your Group",
+                            url="t.me/{}?startgroup=true".format(
+                                context.bot.username))
+                                  
                     ],
                      [
                          InlineKeyboardButton(
@@ -205,7 +202,11 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text="📣Updates Channel",
                              url="https://t.me/AnimesNewsIndo")
-                     
+                     ],
+                      [
+                         InlineKeyboardButton(
+                            text="🚫GBan Logs",
+                            url="https://t.me/UzumakiNarutoYo/5")
                                              
                      ]]))
     else:
