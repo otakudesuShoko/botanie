@@ -1,5 +1,5 @@
 {
-      "name": "Anierobot_bot ",
+      "name": "Narutobot ",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "Saitama"
       ],   
    "repository": "https://github.com/shiwa786/botanie",
-   "logo": "https://telegra.ph/file/93f78c7f300c3d817ec16.jpg",
+   "logo": "https://telegra.ph/file/de4644663daf454f2b0e0.jpg",
    "addons": [
       {
          "options": {
