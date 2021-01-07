@@ -1,13 +1,13 @@
-![Aniebot](https://wallpapercave.com/wp/wp3400420.jpg)
-# anierobot_bot 
+![NarutoBot](https://wallpapercave.com/wp/iwGphDC.jpg)
+# Uzumaki naruto
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/SaitamaRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SaitamaRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/anie_support)
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [anierobot_bot](https://t.me/anierobot_bot).
+Can be found on telegram as [Uzumaki Naruto](https://t.me/UzumakiiNaruto_bot).
 
-The Support group can be reached out to at [anie_support](https://t.me/anie_support), where you can ask for help about [anierobot_bot](https://t.me/anierobot_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Naruto_support](https://t.me/anie_support), where you can ask for help about [anierobot_bot](https://t.me/anierobot_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 
 
@@ -29,7 +29,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shiwa786/botanie.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/otakudesuShoko/botanie.git)
 
 </details>  
 <details>
