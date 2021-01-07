@@ -51,16 +51,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+Hi {}, nama aku adalah {}! 
+Aku adalah adalah bot management group.
+Dirancang khusus untuk membuat Group anda nyaman dan aman.
+Anda dapat menemukan daftar perintah yang tersedia dengan /help.
+•Contact Creator bot:[WHO AM I?](https://t.me/Hyoneechan?start=1229638814).
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with Aniebot Have a look at the following for an idea of some of \
-the things I can help you with.
+Hey kawan namaku *{}*.
+Aku adalah seorang shinobi konoha yang ingin menjadi seorang hokage, dattebayo \
+hal-hal yang dapat saya bantu.
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -77,7 +78,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/93f78c7f300c3d817ec16.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/c5deb1ed0a2794137a8ba.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -189,27 +190,23 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🤖Add Me To Your Group",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
+                            text="👥Add To Group",
+                            url="t.me/{}?startgroup=true".format(                         
+                            context.bot.username))
+                        InlineKeyboardButton(
+                            text="🚫GBan Logs",
+                            url="https://t.me/anie_news/5")
+                    
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🔄Support Group",
-                             url=f"https://t.me/anie_support"),
+                             text="🎗Support Group",
+                             url=f"https://t.me/SuppportOtakudesu"),
                          InlineKeyboardButton(
-                             text="🔄Updates Channel",
-                             url="https://t.me/anie_news")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="📖Getting started guide",
-                             url="https://t.me/anie_news/5")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="☑️source code",
-                             url="https://github.com/shiwa786/botanie")
+                             text="📣Updates Channel",
+                             url="https://t.me/AnimesNewsIndo")
+                     
+                                             
                      ]]))
     else:
         update.effective_message.reply_text(
